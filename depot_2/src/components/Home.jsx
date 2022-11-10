@@ -1,9 +1,20 @@
 import React from 'react'
+import Itemcard from './boxicons'
 
-function Home(props) {
-    conspole.log(props)
+function Home() {
+    
     return (
-        <h2>Welcome to my page</h2>
+        <div>
+        <h1>Let's Shop</h1>
+
+        
+       
+
+
+       
+        
+
+    </div>
     )
 }
 

@@ -1,38 +1,88 @@
-.App {
+
+
+/* .App {
   text-align: center;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cards {
+  width: 250px;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.pics {
+  width: 150px;
+  height: 200px;
+}
+
+.pics {
+  width: 150px;
+  height: 200px;
+}
+
+.add-to-cart{
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  background-color: pink;
+  outline: none;
+}
+
+.navbar {
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: black;
+  padding: 1em;
+  min-height: 2em;
+  font-family: 'Georgia';
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.5em;
+  
+}
+
+/* .pics {
+  width: 30%;
+  padding: 5px;
+} */
+
+/* Clear floats after image containers */
+
+.cart{
+  cursor: pointer;
+}
+                      
+.cart span:nth-child(1){
+  font-size: 1.5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .cart span:nth-child(2){
+  padding: 0 3px;
+  background-color: red;
+  color: white;
+  font-weight: bolx;
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
