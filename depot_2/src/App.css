@@ -9,18 +9,46 @@
   padding: 0;
 }
 
+.title {
+  text-align: center;
+  font-family: 'Georgia';
+}
+
+
+.home{
+  text-align: center;
+  font-family: 'Georgia'; 
+}
+
 section {
   width: 80%;
   margin: auto;
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: auto; 
+  border-radius: 5px;
+  font-family: 'Georgia';
 }
+
+
+
 
 .cards {
   width: 250px;
-  padding: 20px;
+  padding: 20px; 
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 40px 20px;
+  background-color: gray;
+}
+
+
+.name{
+  color: pink;
+  font-family: 'Georgia';
 }
 
 .pics {
@@ -37,15 +65,24 @@ section {
   padding: 5px;
   border: none;
   font-weight: bold;
-  background-color: pink;
+  background-color: darkorchid;
   outline: none;
+  color: white;
+}
+
+.add-to-cart:hover{
+  background-color:pink;
+}
+
+.add-to-cart:active {
+  transform: translateY(2px);
 }
 
 .navbar {
   justify-content: space-between;
   align-items: center;
   color: white;
-  background-color: black;
+  background-color: gray;
   padding: 1em;
   min-height: 2em;
   font-family: 'Georgia';
@@ -53,7 +90,7 @@ section {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: darkorchid;
   font-weight: bold;
   margin-left: 0.5em;
   
@@ -84,5 +121,19 @@ section {
   position: relative;
   top: -15px;
 } */
+
+p{
+  font-size: 10px;
+  color: white;
+  font-family: 'Georgia';
+}
+
+form {
+  text-align: center;
+}
+
+.link{
+  color: pink;
+}
 
 

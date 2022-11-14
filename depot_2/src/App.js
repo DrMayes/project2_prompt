@@ -9,11 +9,17 @@ import axios from 'axios'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'boxicons'
+import Search from './components/Search'
 
 
 
 
 function App() {
+
+  const [cart, setCart] = useState([])
+
+  
+
 
   // const [show, setShow] = useState(true)
   // const [cart, setCart] = useState([])
@@ -75,11 +81,14 @@ function App() {
   return (
     <div className="App">
 <div>
-    <Header/>
+    <Header setCart={setCart} cart={cart}/>
+
+
 </div>
 
 <div>
-  <Main  /> 
+  <Main  setCart={setCart} cart={cart}/> 
+
 </div>
 
 <div>
